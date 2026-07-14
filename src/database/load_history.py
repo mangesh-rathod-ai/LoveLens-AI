@@ -1,8 +1,9 @@
 import sqlite3
 import pandas as pd
 import os
+from src.database.database import DATABASE
 
-DATABASE = "database/lovelens.db"
+
 
 
 def load_history():

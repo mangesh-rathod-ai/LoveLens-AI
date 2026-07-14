@@ -1,6 +1,5 @@
 import sqlite3
-
-DATABASE = "database/lovelens.db"
+from src.database.database import DATABASE
 
 def save_prediction(data):
     conn = sqlite3.connect(DATABASE)
